@@ -7,6 +7,7 @@ object ObjectExample1 extends App {
     def feed(dog: Dog): Unit = println(dog.feed)
   }
 
+  import Owner._
   val dog = Dog("boy", 1)
   Owner.feed(dog)
 

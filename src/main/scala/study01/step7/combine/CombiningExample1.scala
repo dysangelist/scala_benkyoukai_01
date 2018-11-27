@@ -1,6 +1,7 @@
 package study01.step7.combine
 
 object CombiningExample1 extends App {
+
   trait Animal
 
   case class Cat(gender: String, age: Int) extends Animal {

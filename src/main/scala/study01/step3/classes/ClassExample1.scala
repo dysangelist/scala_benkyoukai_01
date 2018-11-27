@@ -1,4 +1,4 @@
-package study01.step2.step3.classes
+package study01.step3.classes
 
 object ClassExample1 extends App {
 
@@ -6,6 +6,7 @@ object ClassExample1 extends App {
     def sleep: String = "zzZZzz"
     def feed: String = "cat food"
   }
+
   val cat: Cat = new Cat("girl", 1)
   println(cat.feed)
   println(cat.sleep)
